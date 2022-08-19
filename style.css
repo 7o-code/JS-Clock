@@ -1,0 +1,43 @@
+@import url('http://fonts.cdnfonts.com/css/led-digital-7');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden; 
+    font-family: 'LED Digital 7', sans-serif;
+    background-image: url(/digital.jpg);
+    background-size: cover;
+    color: #53a2d2;
+    font: 3000;
+    text-shadow: 0 0 10px #53a2d2, 0 0 20px #53a2d2, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black;                                            
+}
+
+.container-lg{
+    height: 500px;
+}
+
+.row{
+    text-align: center;
+}
+
+.title h1{
+    font-size: 100px;
+}
+
+.col-lg{
+    text-align: center;
+}
+
+.clock{
+    padding: 50px;
+}
+
+
+.clock h1{
+    font-size: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
